@@ -3,7 +3,7 @@
 //alert(3+3) //we are using nodejs, not browser
 
 console.log(3+3) 
-console.log("hitesh")
+console.log("Nishant")
 
 
 let name = "Nishant"
@@ -16,7 +16,12 @@ let isLoggedIn = false
 //boolean =>true/false
 //null =>standalone value (khali hai)
 //undefined => value not assigned
-//symbol =>
+//symbol => unique
 
 //object
 
+console.log(typeof null); //object
+console.log(typeof undefined); //undefined
+
+ //undefined is a type
+ //null is an object
