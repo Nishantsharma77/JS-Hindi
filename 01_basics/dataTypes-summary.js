@@ -40,8 +40,35 @@ console.log("hello world");
  //datatype pata kro
  console.log(typeof outsideTemp);
 
- //type of null is objct
+ //type of null is object
 //  type of undefined is undefined
 //type of function is function
+
+
+// Stack(Primitive), heap memory(Non-Primitive)
+
+// in stack we always get copy
+//in heap we get reference (means we change in oriignal value)
+
+let myYoutubename="Nishant "
+let anothername = myYoutubename
+anothername="chaiaurcode"
+
+console.log(myYoutubename);
+ console.log(anothername);
+
+ let userone = {
+    email: "user@google.com"  ,
+    upi: "nishanthdfc",
+ }
+
+ let usertwo=userone
+
+ usertwo.email="nishant@google.com"
+ console.log(userone.email);
+ console.log(usertwo.email);
+ 
+ 
+
 
  
